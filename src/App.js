@@ -11,7 +11,7 @@ function App() {
           <Route path="" exact component={Home} />
         </Switch>
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="osmandappReport/home" component={Home} />
         </Switch>
       </div>
     </Router>
