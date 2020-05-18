@@ -2,17 +2,19 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Components/Home";
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route path="/" exact component={Home} />
+      <Router>
+        <Switch>
+          <Route path="/" render={() => <Home />} />
 
-        <Route path="/home" component={Home} />
-      </Switch>
+          <Route path="/home" render={() => <Home />} />
+        </Switch>
+      </Router>
     </div>
   );
 }
 
-export default withRouter(App);
+export default App;
