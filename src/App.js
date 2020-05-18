@@ -10,7 +10,7 @@ function App() {
         <Switch>
           <Route path="" render={() => <Home />} />
 
-          <Route path="/home" render={() => <Home />} />
+          <Route path="osmandappReport/home" render={() => <Home />} />
         </Switch>
       </Router>
     </div>
