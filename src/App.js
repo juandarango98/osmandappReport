@@ -9,7 +9,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
 
-        <Route path="osmandappReport/home" component={Home} />
+        <Route path="/home" component={Home} />
       </Switch>
     </div>
   );

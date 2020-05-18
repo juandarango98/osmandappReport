@@ -30,19 +30,19 @@ const Nav = () => {
             <li className="prueba-nav">Architecture</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="osmandappReport/home" className="nav-link">
+          <Link to="/home" className="nav-link">
             <li className="prueba-nav">Eventual connectivity</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="osmandappReport/home" className="nav-link">
+          <Link to="/home" className="nav-link">
             <li className="prueba-nav">Performance</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="osmandappReport/home" className="nav-link">
+          <Link to="/home" className="nav-link">
             <li className="prueba-nav">Design</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="osmandappReport/home" className="nav-link">
+          <Link to="/home" className="nav-link">
             <li className="prueba-nav">Usability</li>
             <span className="sr-only">(current)</span>
           </Link>
