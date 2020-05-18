@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/osmandappReport/static/css/main.c1d6f021.chunk.css",
-    "main.js": "/osmandappReport/static/js/main.de6c0493.chunk.js",
-    "main.js.map": "/osmandappReport/static/js/main.de6c0493.chunk.js.map",
+    "main.js": "/osmandappReport/static/js/main.2f3848b5.chunk.js",
+    "main.js.map": "/osmandappReport/static/js/main.2f3848b5.chunk.js.map",
     "runtime-main.js": "/osmandappReport/static/js/runtime-main.31537adb.js",
     "runtime-main.js.map": "/osmandappReport/static/js/runtime-main.31537adb.js.map",
-    "static/js/2.f143ec26.chunk.js": "/osmandappReport/static/js/2.f143ec26.chunk.js",
-    "static/js/2.f143ec26.chunk.js.map": "/osmandappReport/static/js/2.f143ec26.chunk.js.map",
+    "static/js/2.c3e367a8.chunk.js": "/osmandappReport/static/js/2.c3e367a8.chunk.js",
+    "static/js/2.c3e367a8.chunk.js.map": "/osmandappReport/static/js/2.c3e367a8.chunk.js.map",
     "index.html": "/osmandappReport/index.html",
-    "precache-manifest.1c85e1a51d8a643512bcd9035472d534.js": "/osmandappReport/precache-manifest.1c85e1a51d8a643512bcd9035472d534.js",
+    "precache-manifest.ac114ee3d558be3040528ff18df4d401.js": "/osmandappReport/precache-manifest.ac114ee3d558be3040528ff18df4d401.js",
     "service-worker.js": "/osmandappReport/service-worker.js",
     "static/css/main.c1d6f021.chunk.css.map": "/osmandappReport/static/css/main.c1d6f021.chunk.css.map",
-    "static/js/2.f143ec26.chunk.js.LICENSE.txt": "/osmandappReport/static/js/2.f143ec26.chunk.js.LICENSE.txt",
+    "static/js/2.c3e367a8.chunk.js.LICENSE.txt": "/osmandappReport/static/js/2.c3e367a8.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/osmandappReport/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.31537adb.js",
-    "static/js/2.f143ec26.chunk.js",
+    "static/js/2.c3e367a8.chunk.js",
     "static/css/main.c1d6f021.chunk.css",
-    "static/js/main.de6c0493.chunk.js"
+    "static/js/main.2f3848b5.chunk.js"
   ]
 }
