@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/osmandappReport/static/css/main.c1d6f021.chunk.css",
-    "main.js": "/osmandappReport/static/js/main.937f5ea2.chunk.js",
-    "main.js.map": "/osmandappReport/static/js/main.937f5ea2.chunk.js.map",
+    "main.js": "/osmandappReport/static/js/main.6cb9751d.chunk.js",
+    "main.js.map": "/osmandappReport/static/js/main.6cb9751d.chunk.js.map",
     "runtime-main.js": "/osmandappReport/static/js/runtime-main.31537adb.js",
     "runtime-main.js.map": "/osmandappReport/static/js/runtime-main.31537adb.js.map",
     "static/js/2.f143ec26.chunk.js": "/osmandappReport/static/js/2.f143ec26.chunk.js",
     "static/js/2.f143ec26.chunk.js.map": "/osmandappReport/static/js/2.f143ec26.chunk.js.map",
     "index.html": "/osmandappReport/index.html",
-    "precache-manifest.365642a2a4649b5d2eb48bd09be1d1e8.js": "/osmandappReport/precache-manifest.365642a2a4649b5d2eb48bd09be1d1e8.js",
+    "precache-manifest.d2492e43213819a075a3d17aa175e131.js": "/osmandappReport/precache-manifest.d2492e43213819a075a3d17aa175e131.js",
     "service-worker.js": "/osmandappReport/service-worker.js",
     "static/css/main.c1d6f021.chunk.css.map": "/osmandappReport/static/css/main.c1d6f021.chunk.css.map",
     "static/js/2.f143ec26.chunk.js.LICENSE.txt": "/osmandappReport/static/js/2.f143ec26.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.31537adb.js",
     "static/js/2.f143ec26.chunk.js",
     "static/css/main.c1d6f021.chunk.css",
-    "static/js/main.937f5ea2.chunk.js"
+    "static/js/main.6cb9751d.chunk.js"
   ]
 }
