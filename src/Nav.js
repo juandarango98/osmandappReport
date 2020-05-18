@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <Link to="/" className="navbar-brand">
+      <Link to="osmandappReport/home" className="navbar-brand">
         Osmand Report
       </Link>
       <button
@@ -22,27 +22,27 @@ const Nav = () => {
 
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav">
-          <Link to="/" className="nav-link">
+          <Link to="" className="nav-link">
             <li className="prueba-nav">Home</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/" className="nav-link">
+          <Link to="osmandappReport/home" className="nav-link">
             <li className="prueba-nav">Architecture</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/" className="nav-link">
+          <Link to="osmandappReport/home" className="nav-link">
             <li className="prueba-nav">Eventual connectivity</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/" className="nav-link">
+          <Link to="osmandappReport/home" className="nav-link">
             <li className="prueba-nav">Performance</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/" className="nav-link">
+          <Link to="osmandappReport/home" className="nav-link">
             <li className="prueba-nav">Design</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/" className="nav-link">
+          <Link to="osmandappReport/home" className="nav-link">
             <li className="prueba-nav">Usability</li>
             <span className="sr-only">(current)</span>
           </Link>
