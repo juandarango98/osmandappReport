@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07cbd453f400f56913d5b9aac76d7def",
+    "revision": "77b6a8882640d15daf69895d52fbbd68",
     "url": "/osmandappReport/index.html"
   },
   {
-    "revision": "66f47188305c27df9f4e",
+    "revision": "9a83ecb1be9b7cde0e21",
     "url": "/osmandappReport/static/css/main.c1d6f021.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/osmandappReport/static/js/2.f143ec26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66f47188305c27df9f4e",
-    "url": "/osmandappReport/static/js/main.cdaa2368.chunk.js"
+    "revision": "9a83ecb1be9b7cde0e21",
+    "url": "/osmandappReport/static/js/main.ca22f51c.chunk.js"
   },
   {
     "revision": "b04c480cbccc3f36280f",
