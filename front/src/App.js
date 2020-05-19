@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="" render={() => <Home />} />
+          <Route path="/" render={() => <Home />} />
 
-          <Route path="osmandappReport/home" render={() => <Home />} />
+          <Route path="/home" render={() => <Home />} />
         </Switch>
       </Router>
     </div>
