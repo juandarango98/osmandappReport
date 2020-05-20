@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Nav from "./Nav.js";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import ConnectualEventivity from "./Components/ConnectualEventivity";
+import Usability from "./Components/Usability";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/home" component={Home} />
           <Route path="/ec" component={ConnectualEventivity} />
+          <Route path="/usability" component={Usability} />
         </Switch>
       </Router>
     </div>
