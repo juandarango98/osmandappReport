@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <Link to="osmandappReport/home" className="navbar-brand">
-        Osmand Report
+        AntennaPod Report
       </Link>
       <button
         className="navbar-toggler"
