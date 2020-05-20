@@ -30,7 +30,7 @@ const Nav = () => {
             <li className="prueba-nav">Architecture</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/eventual-connectivity" className="nav-link">
+          <Link to="/ec" className="nav-link">
             <li className="prueba-nav">Eventual connectivity</li>
             <span className="sr-only">(current)</span>
           </Link>

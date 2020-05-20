@@ -1,12 +1,10 @@
 import React from "react";
-import Nav from "../Nav.js";
+
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="Home">
-      <Nav></Nav>
-
       <div className="intro intro-carousel">
         <div id="carousel" className="owl-carousel owl-theme">
           <div
