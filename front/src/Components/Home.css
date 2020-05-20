@@ -924,7 +924,8 @@ footer .credits {
     margin: 0.5rem 0;
     text-align: left !important;
   }
-  li {
+  p {
+    text-justify: newspaper !important;
     text-align: left !important;
   }
   .card-box-d .card-body-d p {

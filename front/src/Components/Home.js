@@ -150,11 +150,6 @@ const Home = () => {
                       Back-up your subscriptions with the gPodder.net
                       integration and OPML export
                     </p>
-                    <h3>
-                      Join the AntennaPod community! AntennaPod is under active
-                      development by volunteers. You can contribute too, with
-                      code or with comment!
-                    </h3>
                   </ul>
                 </div>
                 <div className="card-footer-c">
