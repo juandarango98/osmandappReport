@@ -4,6 +4,7 @@ import SubModule from "./SubModule";
 import inicioapp from "../images/inicioapp.png";
 import addpodcast from "../images/addpodcast.png";
 import u3 from "../images/u3.png";
+import u4 from "../images/u4.png";
 
 const Usability = (props) => {
   return (
@@ -21,21 +22,21 @@ const Usability = (props) => {
           img={inicioapp}
         ></SubModule>
         <SubModule
-          title="Adding a podcast"
+          title="Add a podcast"
           p="I'm following what I believe is the inteneded flow of the app and get to
           this window. Here I see a library of different podcasts I can choose.
           This window's purpose is clear, I found some interesting features that
           allow me to search for an specific podcast and there is also a section
           to discover podcasts which is pretty nice."
-          img={inicioapp}
+          img={addpodcast}
           left={false}
         ></SubModule>
 
         <SubModule
-          title="Adding a podcast"
+          title="Checking out the detail of a podcast"
           p="There are a bunch of advanced options, but I only know how to use the itunes one"
-          img={u3}
-          left={false}
+          img={u4}
+          left={true}
         ></SubModule>
 
         <SubModule

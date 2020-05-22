@@ -10,7 +10,7 @@ html {
 }
 html {
   font-size: 14px;
-  background-color: #ffffff !important;
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
