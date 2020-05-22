@@ -2,12 +2,12 @@ import React from "react";
 import "./EC.css";
 
 import ec1 from "../images/ec1.png";
-import ec2 from "../images/ec1.png";
-import ec3 from "../images/ec1.png";
-import ec4 from "../images/ec1.png";
-import ec5 from "../images/ec1.png";
-import ec6 from "../images/ec1.png";
-import ec7 from "../images/ec1.png";
+import ec2 from "../images/ec2.png";
+import ec3 from "../images/ec3.png";
+import ec4 from "../images/ec4.png";
+import ec5 from "../images/ec5.png";
+import ec6 from "../images/ec6.png";
+import ec7 from "../images/ec7.png";
 
 const ConnectualEventivity = (props) => {
   return (
@@ -45,7 +45,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec1} alt="image-20200519084807692" style={{ zoom: "50%" }} />
+        <img
+          src={ec1}
+          alt="image-20200519084807692"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>
         <span>
@@ -59,7 +63,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec2} alt="image-20200519085339405" style={{ zoom: "50%" }} />
+        <img
+          src={ec2}
+          alt="image-20200519085339405"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>
         <span>
@@ -70,7 +78,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec3} alt="image-20200519085707340" style={{ zoom: "50%" }} />
+        <img
+          src={ec3}
+          alt="image-20200519085707340"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>
         <span>
@@ -97,7 +109,11 @@ const ConnectualEventivity = (props) => {
         <span>We found numerous instances of this thorugh out the app</span>
       </p>
       <p>
-        <img src={ec4} alt="image-20200519091621778" style={{ zoom: "50%" }} />
+        <img
+          src={ec4}
+          alt="image-20200519091621778"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>&nbsp;</p>
       <p>
@@ -112,7 +128,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec5} alt="image-20200519092454637" style={{ zoom: "50%" }} />
+        <img
+          src={ec5}
+          alt="image-20200519092454637"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>
         <span>
@@ -134,7 +154,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec6} alt="image-20200519095054656" style={{ zoom: "50%" }} />
+        <img
+          src={ec6}
+          alt="image-20200519095054656"
+          style={{ height: "500px" }}
+        />
       </p>
       <h3>Non-existent result notification</h3>
       <p>
@@ -160,7 +184,11 @@ const ConnectualEventivity = (props) => {
         </span>
       </p>
       <p>
-        <img src={ec7} alt="image-20200519100829576" style={{ zoom: "50%" }} />
+        <img
+          src={ec7}
+          alt="image-20200519100829576"
+          style={{ height: "500px" }}
+        />
       </p>
       <p>
         <span>

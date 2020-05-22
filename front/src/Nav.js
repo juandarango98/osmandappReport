@@ -26,8 +26,8 @@ const Nav = () => {
             <li className="prueba-nav">Home</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/home" className="nav-link">
-            <li className="prueba-nav">Architecture</li>
+          <Link to="/issues" className="nav-link">
+            <li className="prueba-nav">Issues</li>
             <span className="sr-only">(current)</span>
           </Link>
           <Link to="/ec" className="nav-link">
@@ -38,7 +38,7 @@ const Nav = () => {
             <li className="prueba-nav">Performance</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/home" className="nav-link">
+          <Link to="/design" className="nav-link">
             <li className="prueba-nav">Design</li>
             <span className="sr-only">(current)</span>
           </Link>

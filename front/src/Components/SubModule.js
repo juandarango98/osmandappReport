@@ -2,11 +2,22 @@ import React from "react";
 const SubModule = (props) => {
   if (props.left) {
     return (
-      <div>
+      <div
+        style={{ backgroundColor: "red", verticalAlign: "middle !Important" }}
+      >
         <h3>{props.title}</h3>
         <div className="row">
           <div className="col md-6 col sm-10">
-            <p>{props.p}</p>
+            <p
+              style={{
+                backgroundColor: "blue",
+                verticalAlign: "middle !Important",
+
+                display: "inline-block !Important ",
+              }}
+            >
+              {props.p}
+            </p>
           </div>
           <div className="col md-4">
             <img src={props.img} style={{ zoom: "30%" }}></img>

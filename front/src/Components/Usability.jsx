@@ -3,11 +3,13 @@ import "./EC.css";
 import SubModule from "./SubModule";
 import inicioapp from "../images/inicioapp.png";
 import addpodcast from "../images/addpodcast.png";
+import u3 from "../images/u3.png";
+
 const Usability = (props) => {
   return (
     <div id="write" className="is-node">
       <div>
-        <h2>Usability</h2>
+        <h1>Usability</h1>
         <SubModule
           left={true}
           title="Using the app for the first time"
@@ -20,17 +22,28 @@ const Usability = (props) => {
         ></SubModule>
         <SubModule
           title="Adding a podcast"
-          p=""
-          img={inicioapp}
-          left={false}
-        ></SubModule>
-        <p>
-          I follow what I believe is the inteneded flow of the app and get to
+          p="I'm following what I believe is the inteneded flow of the app and get to
           this window. Here I see a library of different podcasts I can choose.
           This window's purpose is clear, I found some interesting features that
           allow me to search for an specific podcast and there is also a section
-          to discover podcasts which is pretty nice.
-        </p>
+          to discover podcasts which is pretty nice."
+          img={inicioapp}
+          left={false}
+        ></SubModule>
+
+        <SubModule
+          title="Adding a podcast"
+          p="There are a bunch of advanced options, but I only know how to use the itunes one"
+          img={u3}
+          left={false}
+        ></SubModule>
+
+        <SubModule
+          title="Adding a podcast"
+          p="There are a bunch of advanced options, but I only know how to use the itunes one"
+          img={u3}
+          left={false}
+        ></SubModule>
       </div>
       <h3>Non-informative message</h3>
     </div>
