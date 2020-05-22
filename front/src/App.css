@@ -5,13 +5,15 @@ body {
   text-align: center;
 }
 
-.nav-bar {
+.navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 6vh;
   background: rgb(73, 79, 82);
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-links {

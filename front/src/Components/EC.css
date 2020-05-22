@@ -28,7 +28,12 @@ body {
   overflow-x: hidden;
   background: inherit;
   tab-size: 4;
-  background-color: #ffffff !important;
+  background-color: #2e2e2e !important;
+  color: aliceblue !important;
+}
+
+img {
+  margin-top: 25px !important;
 }
 iframe {
   margin: auto;
@@ -56,6 +61,7 @@ a:hover {
   white-space: normal;
   overflow-x: visible;
   padding-top: 40px;
+  margin-top: 80px;
 }
 #write.first-line-indent p {
   text-indent: 2em;
@@ -71,10 +77,7 @@ a:hover {
   padding-left: 8px;
   padding-right: 8px;
 }
-body.typora-export {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 .typora-export .footnote-line,
 .typora-export li,
 .typora-export p {

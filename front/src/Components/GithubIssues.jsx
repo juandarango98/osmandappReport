@@ -310,8 +310,17 @@ class GithubIssues extends React.Component {
   }
   render() {
     return (
-      <div className="container">
-        <nav className="panel">
+      <div
+        className="container"
+        style={{
+          position: "fixed",
+          margin: "90px",
+          width: "100%",
+          background: "gainsboro repeat scroll 0% 0%",
+          overflow: "hidden",
+        }}
+      >
+        <nav className="panel" style={{ overflow: "auto" }}>
           <FixedHeaderComponent
             listFilter={this.state.listFilter}
             onFilterChange={this.handleFilterChange}
