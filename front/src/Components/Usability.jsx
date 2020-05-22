@@ -33,8 +33,10 @@ const Usability = (props) => {
         ></SubModule>
 
         <SubModule
-          title="Checking out the detail of a podcast"
-          p="There are a bunch of advanced options, but I only know how to use the itunes one"
+          title="Checking out a podcast"
+          p=" I clicked on a podcast, a window appears andf I can see its the
+          subscribe button, the description and the list of episodes, its pretty
+          straightforward how to use this window"
           img={u4}
           left={true}
         ></SubModule>
