@@ -10,7 +10,6 @@ import PaginationComponent from "./PaginationComponent";
 import StackedIcons from "./StackedIcons";
 import TimeAgoComponent from "./TimeAgoComponent";
 
-import "bulma/css/bulma.css";
 import "../GithubIssues.css";
 
 function incrementPage(page) {
