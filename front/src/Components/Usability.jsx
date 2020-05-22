@@ -5,6 +5,7 @@ import inicioapp from "../images/inicioapp.png";
 import addpodcast from "../images/addpodcast.png";
 import u3 from "../images/u3.png";
 import u4 from "../images/u4.png";
+import u5 from "../images/u5.png";
 
 const Usability = (props) => {
   return (
@@ -40,7 +41,17 @@ const Usability = (props) => {
           img={u4}
           left={true}
         ></SubModule>
-
+        <SubModule
+          title="Subscribing to a podcast"
+          p=" Once I clicked on the subscribe button, this new window appears. Here,
+          apparently here I can choose which of the episodes to download. The
+          list of episodesis not very confortable, I can scroll down infinitely
+          throughout all the episodes that the podcast has. I just realized that
+          there is kind of a tool bar on the top, it dissapears when I scroll
+          down through the list of episodes. "
+          img={u5}
+          left={false}
+        ></SubModule>
         <SubModule
           title="Adding a podcast"
           p="There are a bunch of advanced options, but I only know how to use the itunes one"
