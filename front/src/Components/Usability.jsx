@@ -6,12 +6,13 @@ import addpodcast from "../images/addpodcast.png";
 import u3 from "../images/u3.png";
 import u4 from "../images/u4.png";
 import u5 from "../images/u5.png";
+import u6 from "../images/u6.png";
 
 const Usability = (props) => {
   return (
     <div id="write" className="is-node">
       <div>
-        <h1>Usability</h1>
+        <h1 style={{ fontSize: "34pt", marginBottom: "50px" }}>Usability</h1>
         <SubModule
           left={true}
           title="Using the app for the first time"
@@ -32,14 +33,19 @@ const Usability = (props) => {
           img={addpodcast}
           left={false}
         ></SubModule>
-
+        <SubModule
+          title="Adding a podcast"
+          p="There are a bunch of advanced options, but I only know how to use the itunes one"
+          img={u3}
+          left={true}
+        ></SubModule>
         <SubModule
           title="Checking out a podcast"
           p=" I clicked on a podcast, a window appears andf I can see its the
           subscribe button, the description and the list of episodes, its pretty
           straightforward how to use this window"
           img={u4}
-          left={true}
+          left={false}
         ></SubModule>
         <SubModule
           title="Subscribing to a podcast"
@@ -50,12 +56,12 @@ const Usability = (props) => {
           there is kind of a tool bar on the top, it dissapears when I scroll
           down through the list of episodes. "
           img={u5}
-          left={false}
+          left={true}
         ></SubModule>
         <SubModule
-          title="Adding a podcast"
-          p="There are a bunch of advanced options, but I only know how to use the itunes one"
-          img={u3}
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almosta no contrast with the background and I find it really hard to read"
+          img={u6}
           left={false}
         ></SubModule>
       </div>
