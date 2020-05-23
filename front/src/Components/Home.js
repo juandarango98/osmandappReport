@@ -21,10 +21,11 @@ const Home = () => {
                     <div className="col-lg-8">
                       <div className="intro-body">
                         <p className="intro-title-top">
-                          Juan Diego Arango & Gregorio Ospina
+                          An analysis made by Juan Diego Arango & Gregorio
+                          Ospina
                         </p>
                         <h1 className="intro-title mb-4">
-                          <span className="color-b">ANtennaPod</span> App
+                          <span className="color-b">AntennaPod </span> App
                         </h1>
                         <p className="intro-subtitle intro-price">
                           <a href="#descripcion">

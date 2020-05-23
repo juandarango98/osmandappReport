@@ -6,12 +6,12 @@ const Nav = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark"
-      style={{ position: "fixed", top: "0em" }}
+      style={{ position: "fixed", top: "0em", height: "50px" }}
     >
       <Link
         to="/home"
         className="navbar-brand nav-link"
-        style={{ marginTop: "12px" }}
+        style={{ marginTop: "-3px" }}
       >
         AntennaPod Report
       </Link>
