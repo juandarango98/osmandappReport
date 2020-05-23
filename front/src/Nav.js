@@ -8,7 +8,11 @@ const Nav = () => {
       className="navbar navbar-expand-lg navbar-dark bg-dark"
       style={{ position: "fixed", top: "0em" }}
     >
-      <Link to="/home" className="navbar-brand">
+      <Link
+        to="/home"
+        className="navbar-brand nav-link"
+        style={{ marginTop: "12px" }}
+      >
         AntennaPod Report
       </Link>
       <button
@@ -25,18 +29,6 @@ const Nav = () => {
 
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav">
-          <Link to="/home" className="nav-link">
-            <li className="prueba-nav">Home</li>
-            <span className="sr-only">(current)</span>
-          </Link>
-          <Link to="/issues" className="nav-link">
-            <li className="prueba-nav">Issues</li>
-            <span className="sr-only">(current)</span>
-          </Link>
-          <Link to="/ec" className="nav-link">
-            <li className="prueba-nav">Eventual connectivity</li>
-            <span className="sr-only">(current)</span>
-          </Link>
           <Link to="/design" className="nav-link">
             <li className="prueba-nav">Design</li>
             <span className="sr-only">(current)</span>
@@ -45,12 +37,21 @@ const Nav = () => {
             <li className="prueba-nav">Usability</li>
             <span className="sr-only">(current)</span>
           </Link>
-          <Link to="/imports" className="nav-link">
-            <li className="prueba-nav">Imports</li>
+
+          <Link to="/ec" className="nav-link">
+            <li className="prueba-nav">Eventual connectivity</li>
             <span className="sr-only">(current)</span>
           </Link>
           <Link to="/performance" className="nav-link">
             <li className="prueba-nav">Performance</li>
+            <span className="sr-only">(current)</span>
+          </Link>
+          <Link to="/issues" className="nav-link">
+            <li className="prueba-nav">Github Issues</li>
+            <span className="sr-only">(current)</span>
+          </Link>
+          <Link to="/imports" className="nav-link">
+            <li className="prueba-nav">Imports</li>
             <span className="sr-only">(current)</span>
           </Link>
         </ul>

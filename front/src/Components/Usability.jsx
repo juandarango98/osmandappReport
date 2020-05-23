@@ -94,28 +94,28 @@ const Usability = (props) => {
           left={true}
         ></SubModule>
         <SubModule
-          title="Checking out the search bar"
-          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          title="More options button"
+          p="I clicked on the dotted button, and here I got some additional options for the podcast I thohught there was no way to share the podcast and now I see there is, maybe a share button would be more intuitive"
           img={u9}
           left={false}
         ></SubModule>
         <SubModule
           title="Checking out the search bar"
-          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          p="I tryed to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
           img={u6}
-          left={false}
+          left={true}
         ></SubModule>
         <SubModule
           title="Checking out the sorting"
           p="ON the side of the search button, there are some different sorting options, its pretty straightforward and I think it is pretty useful because there are many episodes"
           img={u7}
-          left={true}
+          left={false}
         ></SubModule>
         <SubModule
           title="Checking out the filters"
           p="Besides the sorting option, there are a bunch of dinamic filters to narrow the search, they work quite well"
           img={u8}
-          left={false}
+          left={true}
         ></SubModule>
         <SubModule
           title="Checking out the search bar"
