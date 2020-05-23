@@ -50,7 +50,7 @@ class GithubIssues extends React.Component {
       user: "",
       repo: "",
       listFilter: { state: "open", choice: "issues" },
-      since: new Date(Date.now() - 7000 * 24 * 60 * 60 * 1000).toISOString(),
+      since: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString(),
       per_page: 40,
       sort: "created",
       page: "",

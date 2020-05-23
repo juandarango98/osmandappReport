@@ -88,16 +88,16 @@ const Usability = (props) => {
         ></SubModule>
 
         <SubModule
-          title="Checking out the search bar"
-          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          title="Detailed podcast information"
+          p="There is an information button, which shows the detailed information of the podcast: The author, language, Url, description. I think its pretty useful to know what the podcast is really about before listening to it"
           img={u11}
-          left={false}
+          left={true}
         ></SubModule>
         <SubModule
           title="Checking out the search bar"
           p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
           img={u9}
-          left={true}
+          left={false}
         ></SubModule>
         <SubModule
           title="Checking out the search bar"
