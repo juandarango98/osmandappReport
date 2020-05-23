@@ -7,6 +7,28 @@ import u3 from "../images/u3.png";
 import u4 from "../images/u4.png";
 import u5 from "../images/u5.png";
 import u6 from "../images/u6.png";
+import u7 from "../images/u7.png";
+import u8 from "../images/u8.png";
+import u9 from "../images/u9.png";
+import u10 from "../images/u10.png";
+import u11 from "../images/u11.png";
+import u12 from "../images/u12.png";
+import u13 from "../images/u13.png";
+import u14 from "../images/u14.png";
+import u15 from "../images/u15.png";
+import u16 from "../images/u16.png";
+import u17 from "../images/u17.png";
+import u18 from "../images/u18.png";
+import u19 from "../images/u19.png";
+import u20 from "../images/u20.png";
+import u21 from "../images/u21.png";
+import u22 from "../images/u22.png";
+import u23 from "../images/u23.png";
+import u24 from "../images/u24.png";
+import u25 from "../images/u25.png";
+import u26 from "../images/u26.png";
+import u27 from "../images/u27.png";
+import u28 from "../images/u28.png";
 
 const Usability = (props) => {
   return (
@@ -59,9 +81,142 @@ const Usability = (props) => {
           left={true}
         ></SubModule>
         <SubModule
+          title="Checking out the settings of a podcast"
+          p="There is a settings button below the name of the podcast, here once I suscribed I can configure certain stuff about the podcast in question."
+          img={u10}
+          left={false}
+        ></SubModule>
+
+        <SubModule
           title="Checking out the search bar"
-          p="I tryied to use the search bar and it works, but the text color has almosta no contrast with the background and I find it really hard to read"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u11}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u9}
+          left={true}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
           img={u6}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the sorting"
+          p="ON the side of the search button, there are some different sorting options, its pretty straightforward and I think it is pretty useful because there are many episodes"
+          img={u7}
+          left={true}
+        ></SubModule>
+        <SubModule
+          title="Checking out the filters"
+          p="Besides the sorting option, there are a bunch of dinamic filters to narrow the search, they work quite well"
+          img={u8}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u12}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u13}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u14}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u15}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u16}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u17}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u18}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u19}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u20}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u21}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u22}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u23}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u24}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u25}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u26}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u27}
+          left={false}
+        ></SubModule>
+        <SubModule
+          title="Checking out the search bar"
+          p="I tryied to use the search bar and it works, but the text color has almost no contrast with the background and I find it really hard to read"
+          img={u28}
           left={false}
         ></SubModule>
       </div>

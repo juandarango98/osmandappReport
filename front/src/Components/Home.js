@@ -28,7 +28,7 @@ const Home = () => {
                         </h1>
                         <p className="intro-subtitle intro-price">
                           <a href="#descripcion">
-                            <span className="price-a">What is Osmand?</span>
+                            <span className="price-a">What is AntennaPod?</span>
                           </a>
                         </p>
                       </div>
@@ -73,12 +73,6 @@ const Home = () => {
                     no costs, no ads.
                   </p>
                 </div>
-                <div className="card-footer-c">
-                  <a href="/signup" className="link-c link-icon">
-                    Learn more
-                    <span className="ion-ios-arrow-forward"></span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -102,51 +96,57 @@ const Home = () => {
                 <div>
                   <ul className="content-d">
                     <h3>Import, organize and play</h3>
+                    <br></br>
                     <p>
-                      Manage playback from anywhere: homescreen widget, system
-                      notification and earplug and bluetooth controls
+                      - Manage playback from anywhere: homescreen widget, system
+                      notification and earplug and bluetooth controls.
                     </p>
                     <p>
-                      Add and import feeds via the iTunes and gPodder.net
-                      directories, OPML files and RSS or Atom links
+                      - Add and import feeds via the iTunes and gPodder.net
+                      directories, OPML files and RSS or Atom links.
                     </p>
                     <p>
-                      Enjoy listening your way with adjustable playback speed,
+                      - Enjoy listening your way with adjustable playback speed,
                       chapter support, remembered playback position and an
-                      advanced sleep timer (shake to reset, lower volume)
+                      advanced sleep timer (shake to reset, lower volume).
                     </p>
-                    <p>Access password-protected feeds and episodes</p>
+                    <p>- Access password-protected feeds and episodes.</p>
+                    <br></br>
                     <h3>Keep track, share & appreciate</h3>
+                    <br></br>
                     <p>
-                      Keep track of the best of the best by marking episodes as
-                      favourites
+                      - Keep track of the best of the best by marking episodes
+                      as favourites.
                     </p>
                     <p>
-                      Find that one episode through the playback history or by
-                      searching titles and shownotes
+                      - Find that one episode through the playback history or by
+                      searching titles and shownotes.
                     </p>
                     <p>
-                      Share episodes and feeds through advanced social media and
-                      email options, the gPodder.net services and via OPML
-                      export
+                      - Share episodes and feeds through advanced social media
+                      and email options, the gPodder.net services and via OPML
+                      export.
                     </p>
+                    <br></br>
                     <h3>Control the system</h3>
+                    <br></br>
                     <p>
-                      Take control over automated downloading: choose feeds,
+                      - Take control over automated downloading: choose feeds,
                       exclude mobile networks, select specific WiFi networks,
                       require the phone to be charging and set times or
-                      intervals
+                      intervals.
                     </p>
                     <p>
-                      Manage storage by setting the amount of cached episodes,
-                      smart deletion and selecting your preferred location
+                      - Manage storage by setting the amount of cached episodes,
+                      smart deletion and selecting your preferred location.
                     </p>
                     <p>
-                      Adapt to your environment using the light and dark theme
+                      - Adapt to your environment using the light and dark
+                      theme.
                     </p>
                     <p>
-                      Back-up your subscriptions with the gPodder.net
-                      integration and OPML export
+                      - Back-up your subscriptions with the gPodder.net
+                      integration and OPML export.
                     </p>
                   </ul>
                 </div>
@@ -161,23 +161,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <footer>
-        <div className="container">
-          <div className="row">
-            <div className="copyright-footer">
-              <p className="copyright color-text-a">
-                &copy;
-                <span className="color-a">
-                  {" "}
-                  Gregorio Ospina - Juan Diego Arango
-                </span>{" "}
-                .
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
